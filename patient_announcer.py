@@ -673,6 +673,14 @@ class PatientAnnouncerApp(ctk.CTk):
         )
         self.footer_hint.grid(row=0, column=0, sticky="w")
 
+        lbl_developer = ctk.CTkLabel(
+            footer_frame,
+            text="👨‍💻 مصمم البرنامج: شامل عبدالامير الطائي | 📞 07703333687",
+            font=ctk.CTkFont(size=12, weight="bold"),
+            text_color="#38BDF8"
+        )
+        lbl_developer.grid(row=0, column=1, sticky="e", padx=10)
+
     # ----------------------------------------------------------------------------------
     # TAB 1: HISTORY & EXPORT
     # ----------------------------------------------------------------------------------

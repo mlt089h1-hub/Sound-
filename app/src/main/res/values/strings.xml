@@ -36,7 +36,7 @@
     <string name="license_badge_expired">Free Trial Ended (License Key Required)</string>
     <string name="license_card_title">System License &amp; Annual Subscription</string>
     <string name="license_card_desc">System is free for the first 4 months (120 days). For annual renewal, contact Shamel Abdalameer.</string>
-    <string name="license_developer_info">Developer: Shamel Abdalameer | Phone / WhatsApp: 07703333687</string>
+    <string name="license_developer_info">Software Designer: Shamel Abdalameer Al-Tai | Mobile: 07703333687</string>
     <string name="license_price_note">Annual License Key Price: $40 USD (365 extra days)</string>
     <string name="license_input_label">Enter Annual Activation Key received from developer</string>
     <string name="license_input_placeholder">e.g. SHAMEL-LAB-0001-C13C</string>

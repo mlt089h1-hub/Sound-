@@ -35,8 +35,8 @@
     <string name="license_badge_vip">ترخيص دائم (VIP)</string>
     <string name="license_badge_expired">انتهت الفترة التجريبية (مطلوب كود تفعيل)</string>
     <string name="license_card_title">حالة ترخيص النظام والاشتراك السنوي</string>
-    <string name="license_card_desc">النظام مجاني لأول 4 أشهر (120 يوماً). لتجديد التفعيل السنوي تواصل مع المبرمج شامل عبدالامير.</string>
-    <string name="license_developer_info">المطور: شامل عبدالامير | هاتف / واتساب: 07703333687</string>
+    <string name="license_card_desc">النظام مجاني لأول 4 أشهر (120 يوماً). لتجديد التفعيل السنوي تواصل مع مصمم البرنامج.</string>
+    <string name="license_developer_info">مصمم البرنامج: شامل عبدالامير الطائي | رقم الموبايل: 07703333687</string>
     <string name="license_price_note">سعر كود التفعيل السنوي: 40$ دولار (365 يوماً إضافية)</string>
     <string name="license_input_label">أدخل كود التفعيل السنوي المستلم من المبرمج</string>
     <string name="license_input_placeholder">مثال: SHAMEL-LAB-0001-C13C</string>
@@ -45,6 +45,6 @@
     <string name="license_payment_info_btn">بيانات التحويل المالي (زين كاش / ماستركارد)</string>
     <string name="payment_dialog_title">بيانات الدفع والتحويل المالي</string>
     <string name="payment_zaincash">زين كاش (Zain Cash): 07703333687</string>
-    <string name="payment_developer">المستلم: المبرمج شامل عبدالامير</string>
+    <string name="payment_developer">المستلم: مصمم البرنامج شامل عبدالامير الطائي (07703333687)</string>
     <string name="payment_note">بعد إتمام التحويل، أرسل إشعار التحويل عبر الواتساب لتستلم كود التفعيل السنوي فوراً.</string>
 </resources>
