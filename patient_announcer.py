@@ -279,12 +279,16 @@ class HybridTTSManager:
       2. Windows SAPI5: Zero-latency offline engine (Offline).
     """
     EDGE_VOICES = [
-        ("ar-SA-HamedNeural", "حامد (صوت بشري طبيعي - سعودي) ⭐"),
-        ("ar-EG-SalmaNeural", "سلمى (صوت بشري طبيعي - مصري) ⭐"),
-        ("ar-EG-ShakirNeural", "شاكر (صوت بشري طبيعي - مصري)"),
-        ("ar-SA-ZariyahNeural", "زارية (صوت بشري طبيعي - سعودي)"),
-        ("ar-AE-HamdanNeural", "حمدان (صوت بشري طبيعي - إماراتي)"),
-        ("ar-IQ-BassimNeural", "باسم (صوت بشري طبيعي - عراقي)")
+        ("ar-SA-HamedNeural", "حامد (صوت بشري طبيعي - سعودي وقور) ⭐"),
+        ("ar-EG-SalmaNeural", "سلمى (صوت بشري طبيعي - أنثوي دافئ) ⭐"),
+        ("ar-IQ-BassimNeural", "باسم (صوت بشري طبيعي - عراقي محلي) 🇮🇶"),
+        ("ar-SA-ZariyahNeural", "زارية (صوت بشري طبيعي - ناعم هادئ) 🌸"),
+        ("ar-EG-ShakirNeural", "شاكر (صوت بشري طبيعي - طبي رسمي) 🎙️"),
+        ("ar-AE-FatimaNeural", "فاطمة (صوت بشري طبيعي - إماراتي نقي) ✨"),
+        ("ar-AE-HamdanNeural", "حمدان (صوت بشري طبيعي - خليجي) 🏛️"),
+        ("ar-JO-TaimNeural", "تيم (صوت بشري طبيعي - أردني شبابي) ⚡"),
+        ("ar-JO-SanaNeural", "سناء (صوت بشري طبيعي - شامي واثق) 👩‍⚕️"),
+        ("ar-DZ-IsmaelNeural", "إسماعيل (صوت بشري طبيعي - مغاربي) 📢")
     ]
 
     def __init__(self, config: dict):
