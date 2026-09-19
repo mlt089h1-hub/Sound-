@@ -1,0 +1,6 @@
+{
+  "name": "LIS Patient Announcer",
+  "description": "Laboratory Information System Patient Voice Announcement Desktop Tool",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

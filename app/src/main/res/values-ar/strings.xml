@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LIS Announcer</string>
+    <string name="title_app">نظام نداء المرضى (LIS)</string>
+    <string name="status_speaking">جاري النطق الآن...</string>
+    <string name="status_ready_online">محرك عربي سحابي + محلي جاهز</string>
+    <string name="status_ready_offline">محرك محلي جاهز</string>
+    <string name="status_init">جاري تهيئة الصوت العربي...</string>
+    <string name="station_label">محطة / كابينة الفحص الحالية:</string>
+    <string name="patient_input_label">اسم المريض (مثال: أحمد عبد الله)</string>
+    <string name="patient_input_placeholder">اكتب أو الصق اسم المريض...</string>
+    <string name="call_button_text">📢 نداء المريض بالصوت</string>
+    <string name="tab_history">📜 سجل النداءات</string>
+    <string name="tab_settings">⚙️ إعدادات الصوت</string>
+    <string name="empty_history_text">لا توجد نداءات سابقة حتى الآن\nاكتب اسم المريض واضغط على زر النداء</string>
+    <string name="replay_button">إعادة</string>
+    <string name="voice_persona_title">نبرة الصوت وأسلوب النداء:</string>
+    <string name="voice_persona_desc">اختر نبرة الصوت الأنسب لأجواء المختبر والعيادة</string>
+    <string name="chime_title">نغمة التنبيه المسبقة (Chime)</string>
+    <string name="chime_desc">تشغيل رنين مستشفى تمهيدي قبل اسم المريض</string>
+    <string name="double_call_title">تكرار النداء تلقائياً مرتين</string>
+    <string name="double_call_desc">إعادة قراءة الاسم بعد فاصل 3 ثوانٍ</string>
+    <string name="online_tts_title">محرك النطق العربي عالي الجودة (Online Neural TTS)</string>
+    <string name="online_tts_desc">نطق عربي سليم 100% حتى لو كان هاتف الأندرويد يفتقر لحزمة الصوت العربي</string>
+    <string name="speech_rate_label">سرعة النطق:</string>
+    <string name="speech_volume_label">مستوى صوت النداء:</string>
+    <string name="test_speech_button">🔊 اختبار النبرة المختارة والتنبيه</string>
+    <string name="tv_dialog_title">شاشة صالة الانتظار (TV View)</string>
+    <string name="tv_calling_badge">النداء الحالي | NOW CALLING</string>
+    <string name="close_button">إغلاق</string>
+
+    <!-- License & Subscription strings -->
+    <string name="license_badge_trial">فترة مجانية: باقي %d يوم</string>
+    <string name="license_badge_active">مرخص: باقي %d يوم</string>
+    <string name="license_badge_vip">ترخيص دائم (VIP)</string>
+    <string name="license_badge_expired">انتهت الفترة التجريبية (مطلوب كود تفعيل)</string>
+    <string name="license_card_title">حالة ترخيص النظام والاشتراك السنوي</string>
+    <string name="license_card_desc">النظام مجاني لأول 4 أشهر (120 يوماً). لتجديد التفعيل السنوي تواصل مع المبرمج شامل عبدالامير.</string>
+    <string name="license_developer_info">المطور: شامل عبدالامير | هاتف / واتساب: 07703333687</string>
+    <string name="license_price_note">سعر كود التفعيل السنوي: 40$ دولار (365 يوماً إضافية)</string>
+    <string name="license_input_label">أدخل كود التفعيل السنوي المستلم من المبرمج</string>
+    <string name="license_input_placeholder">مثال: SHAMEL-LAB-0001-C13C</string>
+    <string name="license_activate_btn">تفعيل الكود الآن</string>
+    <string name="license_whatsapp_btn">شراء كود تفعيل عبر واتساب</string>
+    <string name="license_payment_info_btn">بيانات التحويل المالي (زين كاش / ماستركارد)</string>
+    <string name="payment_dialog_title">بيانات الدفع والتحويل المالي</string>
+    <string name="payment_zaincash">زين كاش (Zain Cash): 07703333687</string>
+    <string name="payment_developer">المستلم: المبرمج شامل عبدالامير</string>
+    <string name="payment_note">بعد إتمام التحويل، أرسل إشعار التحويل عبر الواتساب لتستلم كود التفعيل السنوي فوراً.</string>
+</resources>

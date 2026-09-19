@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Center 66dp safe zone (21 to 87) -->
+    <!-- Medical Cross / Plus Badge in White -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M48,27 h12 v15 h15 v12 h-15 v15 h-12 v-15 h-15 v-12 h15 Z" />
+    
+    <!-- Megaphone / Speaker Symbol in Vibrant Yellow -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M35,66 L45,66 L59,77 L59,55 L45,66 Z" />
+    
+    <!-- Sound Waves -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFD54F"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M65,60 C68,63 68,69 65,72" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFD54F"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M71,55 C77,61 77,71 71,77" />
+</vector>
