@@ -461,13 +461,32 @@ class TVDisplayWindow(ctk.CTkToplevel):
         header.grid(row=0, column=0, sticky="ew")
         header.grid_columnconfigure(0, weight=1)
 
+        header_content = ctk.CTkFrame(header, fg_color="transparent")
+        header_content.pack(fill="x", padx=20, pady=12)
+
         lbl_clinic = ctk.CTkLabel(
-            header,
+            header_content,
             text="🏥 المختبر الطبي - شاشة نداء المراجعين",
             font=ctk.CTkFont(size=24, weight="bold"),
             text_color="#F8FAFC"
         )
-        lbl_clinic.pack(pady=16)
+        lbl_clinic.pack(side="right", padx=10)
+
+        self.btn_fullscreen = ctk.CTkButton(
+            header_content,
+            text="⛶ ملء الشاشة (F11)",
+            width=140,
+            height=36,
+            fg_color="#0284C7",
+            hover_color="#0369A1",
+            font=ctk.CTkFont(size=14, weight="bold"),
+            command=self.toggle_fullscreen
+        )
+        self.btn_fullscreen.pack(side="left", padx=10)
+
+        self.is_fullscreen = False
+        self.bind("<F11>", lambda e: self.toggle_fullscreen())
+        self.bind("<Escape>", lambda e: self.exit_fullscreen())
 
         # Main Active Call Card
         self.active_card = ctk.CTkFrame(self, fg_color="#1E3A8A", corner_radius=16)
@@ -508,6 +527,20 @@ class TVDisplayWindow(ctk.CTkToplevel):
             text_color="#94A3B8"
         )
         self.lbl_recent.pack(pady=14)
+
+    def toggle_fullscreen(self):
+        self.is_fullscreen = not self.is_fullscreen
+        self.attributes("-fullscreen", self.is_fullscreen)
+        if self.is_fullscreen:
+            self.btn_fullscreen.configure(text="خروج من ملء الشاشة (ESC)")
+        else:
+            self.btn_fullscreen.configure(text="⛶ ملء الشاشة (F11)")
+
+    def exit_fullscreen(self):
+        if self.is_fullscreen:
+            self.is_fullscreen = False
+            self.attributes("-fullscreen", False)
+            self.btn_fullscreen.configure(text="⛶ ملء الشاشة (F11)")
 
     def update_call(self, patient_name: str, station: str, recent_names: List[str]):
         self.lbl_patient_name.configure(text=patient_name)
